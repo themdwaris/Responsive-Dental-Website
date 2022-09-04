@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.svg" type="image/XML">
+
+    <!-- font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
+  rel="stylesheet">
+
+  <!-- style -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Dentlish</title>
+</head>
+<body>
+    <!-- header -->
+    <header id="header">
+        <div class="topConatiner">
+            <div class="mail">
+                <ion-icon name="mail-outline"></ion-icon>
+                <span>info@example.com</span>
+                <ion-icon name="call-outline"></ion-icon>
+                <span>+91-7052-101-786</span>
+            </div>
+            <div class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    <ion-icon name="logo-youtube"></ion-icon>
+            </div>
+        </div>
+        <nav id="nav">
+            <div class="nav lr-pad">
+                <div class="logo"><h1>Dentlish.</h1></div>
+                <ul id="menubar" onclick="closeMenu()">
+                    <ion-icon name="close" class="close-icon" onclick="closeMenu()"></ion-icon>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                    <li id="book" class="book"><a href="">BOOK APPOINTMENT</a></li>
+                </ul>
+                <ion-icon name="menu" class="menu-icon" onclick="openMenu()"></ion-icon>
+            </div>
+        </nav>
+    </header>
+
+    <!-- hero section -->
+    <div id="hero" class="lr-pad">
+        <div class="hero-container">
+            <div class="left-section">
+                <div class="hero-text">
+                    <h5>Welcome To Dentelo</h5>
+                    <h1>We Are Best<br> Dental Service</h1>
+                    <p>Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex, dapibus purus sapien, cursus sed nisl tristique, commodo gravida lectus non.</p>
+
+                    <form action="">
+                        <input type="email" placeholder="Enter your email">
+                        <button>Get Call Back</button>
+                    </form>
+                </div>
+               
+            </div>
+            <div class="right-section">
+                <div class="image">
+                    <img src="assets/images/hero-banner.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- service section -->
+    <div id="services" class="lr-pad">
+        <h4 class="title">Our Services</h4>
+        <h1 class="sub-title">What We Provide</h1>
+        <div class="service-container">
+            <div class="service-box">
+                <div class="box">
+                    <span class="service-icon">
+                        <img src="assets/images/service-icon-1.png" alt="">
+                    </span>
+                    <div class="service-text">
+                        <h3>Root Canal</h3>
+                        <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="service-icon">
+                        <img src="assets/images/service-icon-2.png" alt="">
+                    </span>
+                    <div class="service-text">
+                        <h3>Root Canal</h3>
+                        <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="service-icon">
+                        <img src="assets/images/service-icon-3.png" alt="">
+                    </span>
+                    <div class="service-text">
+                        <h3>Root Canal</h3>
+                        <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="mid-service">
+                  <div class="service-banner">
+                    <img src="assets/images/service-banner.png" alt="">
+                  </div>
+            </div>
+            <div class="service-box">
+                <div class="box">
+                    <div class="service-icon">
+                        <img src="assets/images/service-icon-4.png" alt="">
+                    </div>
+                    <div class="service-text">
+                        <h3>Root Canal</h3>
+                        <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="service-icon">
+                        <img src="assets/images/service-icon-5.png" alt="">
+                    </span>
+                    <div class="service-text">
+                        <h3>Root Canal</h3>
+                        <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="service-icon">
+                        <img src="assets/images/service-icon-6.png" alt="">
+                    </span>
+                    <div class="service-text">
+                        <h3>Root Canal</h3>
+                        <p>Aenean eleifend turpis tellus, nec laoreet metus elementum ac.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- about section -->
+    <div id="about" class="lr-pad">
+          <div class="about-container">
+            <div class="left-about">
+                <div class="about-banner"><img src="assets/images/about-banner.png" alt=""></div>
+            </div>
+            <div class="right-about">
+                <h4>About Us</h4>
+                <h1>We Care For Your <br> Dental Health</h1>
+                <p>Aliquam ac sem et diam iaculis efficitur. Morbi in enim odio. Nullam quis volutpat est, sed dapibus sapien. Cras condimentum eu velit id tempor. Curabitur purus sapien, cursus sed nisl tristique, commodo vehicula arcu.</p>
+                <p>Aliquam erat volutpat. Aliquam enim massa, sagittis blandit ex mattis, ultricies posuere sapien. Morbi a dignissim enim. Fusce elementum, augue in elementum porta, sapien nunc volutpat ex, a accumsan nunc lectus eu lectus.</p>
+                <button class="btn">Read more</button>
+            </div>
+          </div>
+    </div>
+
+    <!-- our doctor section -->
+    <div id="doctor" class="lr-pad">
+        <h4 class="title">Our Doctor</h4>
+        <h1 class="sub-title">Best Expert Dentist</h1>
+        <div class="doctor-container">
+            <div class="doctor-box">
+                <a href="">
+                    <div class="doctor-img"><img src="assets/images/doctor-1.png" alt=""></div>
+                    <div class="doctor-text">
+                        <h3>Howard Holmes</h3>
+                        <p>Dentist</p>
+                    </div>
+                    <div class="doctor-links">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </div>
+                </a>
+              
+            </div>
+
+            <div class="doctor-box">
+                <a href="">
+                    <div class="doctor-img"><img src="assets/images/doctor-2.png" alt=""></div>
+                    <div class="doctor-text">
+                        <h3>Ella Thompson</h3>
+                        <p>Dentist</p>
+                    </div>
+                    <div class="doctor-links">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </div>
+                </a>
+              
+            </div>
+
+            <div class="doctor-box">
+                <a href="">
+                    <div class="doctor-img"><img src="assets/images/doctor-3.png" alt=""></div>
+                    <div class="doctor-text">
+                        <h3>Vincent Cooper</h3>
+                        <p>Dentist</p>
+                    </div>
+                    <div class="doctor-links">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </div>
+                </a>
+              
+            </div>
+
+          <div class="doctor-box">
+                <a href="">
+                    <div class="doctor-img"><img src="assets/images/doctor-4.png" alt=""></div>
+                    <div class="doctor-text">
+                        <h3>Danielle Bryant</h3>
+                        <p>Dentist</p>
+                    </div>
+                    <div class="doctor-links">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </div>
+                </a>
+              
+            </div>
+        </div>
+
+    </div>
+
+    <!-- CTA section -->
+    <div id="cta" class="">
+        <div class="cta-container lr-pad">
+            <div class="left-cta">
+                <div class="cta-banner"><img src="assets/images/cta-banner.png" alt=""></div>
+            </div>
+            <div class="right-cta">
+                <div class="cta-text">
+                    <h3>Book Dentail Appointment</h3>
+                    <h1>We Are open And Welcoming Patients</h1>
+                    <button>Book appointment</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- blog section -->
+    <div id="blog" class="lr-pad">
+        <h4 class="title">Our Blog</h4>
+        <h1 class="sub-title">Latest Blog & News</h1>
+        <div class="blog-container">
+             <div class="blog-box">
+                    <a href="">
+                        <div class="blog-img">
+                            <img src="assets/images/blog-1.jpg" alt="">
+                            <div class="blog-date">
+                                <span><ion-icon name="calendar-outline"></ion-icon> 24th March 2022</span>
+                            </div>
+                        </div>
+                        <div class="blog-text">
+                            <h3>Cras accumsan nulla nec lacus ultricies placerat.</h3>
+                            <p>Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.</p>
+                            <a href=""><button>Read More</button></a>
+                        </div>
+                    </a>
+             </div>
+
+             <div class="blog-box">
+                    <a href="">
+                        <div class="blog-img">
+                            <img src="assets/images/blog-2.jpg" alt="">
+                            <div class="blog-date">
+                                <span><ion-icon name="calendar-outline"></ion-icon> 24th March 2022</span>
+                            </div>
+                        </div>
+                        <div class="blog-text">
+                            <h3>Dras accumsan nulla nec lacus ultricies placerat.</h3>
+                            <p>Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.</p>
+                            <a href=""><button>Read More</button></a>
+                        </div>
+                    </a>
+             </div>
+
+            <div class="blog-box">
+                    <a href="">
+                        <div class="blog-img">
+                            <img src="assets/images/blog-3.jpg" alt="">
+                            <div class="blog-date">
+                                <span><ion-icon name="calendar-outline"></ion-icon> 24th March 2022</span>
+                            </div>
+                        </div>
+                        <div class="blog-text">
+                            <h3>Seas accumsan nulla nec lacus ultricies placerat.</h3>
+                            <p>Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.</p>
+                            <a href=""><button>Read More</button></a>
+                        </div>
+                    </a>
+             </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+    <footer id="footer" class="">
+        <div class="footer-container lr-pad">
+            <div class="footer-box">
+                <h3>Dentelo.</h3>
+                <p>Mauris non nisi semper, lacinia neque in, dapibus leo. Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.Quisque vitae metus.</p>
+                <div class="open-close-time">
+                    <span><ion-icon name="time-outline"></ion-icon></span>
+                    <div class="text">
+                         <p>Monday - Saturday: <br>9:00am - 10:00Pm</p>
+                    </div>
+                    <!-- <span>Monday - Saturday: <br>9:00am - 10:00Pm</span> -->
+                </div>
+            </div>
+            <div class="footer-box">
+                <ul>
+                    <li><h3>Other Links</h3></li>
+                    <li><a href="">+ Home</a></li>
+                    <li><a href="">+ About</a></li>
+                    <li><a href="">+ Services</a></li>
+                    <li><a href="">+ Blog</a></li>
+                    <li><a href="">+ Team</a></li>
+                    <li><a href="">+ Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <ul>
+                    <li><h3>Other Links</h3></li>
+                    <li><a href="">+ Home</a></li>
+                    <li><a href="">+ About</a></li>
+                    <li><a href="">+ Services</a></li>
+                    <li><a href="">+ Blog</a></li>
+                    <li><a href="">+ Team</a></li>
+                    <li><a href="">+ Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-box contact-list">
+                <ul>
+                    <li><h3>Contact</h3></li>
+                    <li><a href="" class="contact"><ion-icon name="location-outline"></ion-icon><p>1247/Plot No. 39, 15th Phase, <br>LHB Colony, Kanpur</p></li></a>
+                    <li><a href=""class="contact"><ion-icon name="call-outline"></ion-icon><p>+91-7052-101-786</p></li></a>
+                    <li><a href="" class="contact"><ion-icon name="mail-outline"></ion-icon><p>help@example.com</p></li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright"><p>&copy; 2022 All Rights Reserved by Waris</p></div>
+
+    </footer>
+
+    
+
+    <script src="assets/js/script.js"></script>
+
+    <!-- ion-icon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
